@@ -1,6 +1,6 @@
 weather app widget 
 
-```import tkinter as tk
+import tkinter as tk
 from tkinter import  messagebox
 from geopy.geocoders import Nominatim
 from timezonefinder import TimezoneFinder
@@ -8,6 +8,7 @@ from datetime import datetime
 import requests
 import pytz
 
+```
 def get_weather():
     try:
         city = textfield.get()
@@ -136,5 +137,6 @@ pressure_label.place(x=670,y=430)
 
 
 root.mainloop()
+
 
 ```
