@@ -1,7 +1,6 @@
-#weather app widget
+weather app widget 
 
-```
-import tkinter as tk
+```import tkinter as tk
 from tkinter import  messagebox
 from geopy.geocoders import Nominatim
 from timezonefinder import TimezoneFinder
