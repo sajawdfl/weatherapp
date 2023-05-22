@@ -1,6 +1,6 @@
-# weatherapp
-##simple weather app with Tkinter
+#weather app widget
 
+```
 import tkinter as tk
 from tkinter import  messagebox
 from geopy.geocoders import Nominatim
@@ -138,3 +138,4 @@ pressure_label.place(x=670,y=430)
 
 root.mainloop()
 
+```
